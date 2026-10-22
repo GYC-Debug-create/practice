@@ -60,7 +60,9 @@
 ### Java
 
 - 按 **Java 8** 写：不用 `var`、`List.of()`、`stream().toList()`、`String.isBlank()`
-- ACM 题用 `模板/Main.java` 的 BufferedReader 模板；类名 `Main`，不写 `package`
+- ACM 题用 `模板/Main.java` 的最小 Scanner 模板；类名 `Main`，不写 `package`
+- 创建练习文件时只保留 Scanner 导入、Main/main 和 Scanner 初始化；不写 TODO、步骤提示、具体读数语句、解题逻辑或输出代码，留给用户手写
+- 先只练 Scanner，遇到输入性能确有需要的题目时再讲 BufferedReader
 - 给本地编译命令时写 `javac -encoding UTF-8 Main.java`（Windows 上 javac 默认 GBK，有中文注释会编译失败）
 
 ### JS
