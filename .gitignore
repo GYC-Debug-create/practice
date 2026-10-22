@@ -1,0 +1,9 @@
+# 白名单：只提交 .java / .js / .md
+# 测试输入（in.txt 等）、编译产物（.class）、IDE 配置一律不进仓库
+
+*
+!*/
+!*.java
+!*.js
+!*.md
+!.gitignore
