@@ -1,0 +1,9 @@
+{
+  "name": "comment-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "短视频评论服务（简化版，内存存储）",
+  "scripts": {
+    "test": "node test/run.js"
+  }
+}

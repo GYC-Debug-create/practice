@@ -1,0 +1,59 @@
+[
+  {
+    "id": "O1001",
+    "status": "PENDING_PAYMENT",
+    "createdAt": "2026-10-20T12:00:00+08:00",
+    "items": [
+      { "skuId": "A100", "name": "保温杯 500ml", "price": 1990, "quantity": 2 },
+      { "skuId": "B200", "name": "杯刷", "price": 990, "quantity": 1 }
+    ],
+    "coupon": { "type": "FULL_REDUCTION", "threshold": 4000, "amount": 500 },
+    "address": { "name": "张三", "phone": "13812345678", "detail": "北京市海淀区上地西路 6 号" }
+  },
+  {
+    "id": "O1002",
+    "status": "PENDING_PAYMENT",
+    "createdAt": "2026-10-20T11:30:00+08:00",
+    "items": [
+      { "skuId": "C300", "name": "蓝牙耳机", "price": 3500, "quantity": 1 }
+    ],
+    "coupon": { "type": "FULL_REDUCTION", "threshold": 5000, "amount": 800 },
+    "address": { "name": "李四", "phone": "13900001111", "detail": "上海市浦东新区张江路 88 号" }
+  },
+  {
+    "id": "O1003",
+    "status": "PAID",
+    "createdAt": "2026-10-19T20:00:00+08:00",
+    "paidAt": "2026-10-19T20:05:00+08:00",
+    "items": [
+      { "skuId": "D400", "name": "机械键盘", "price": 12900, "quantity": 1 }
+    ],
+    "coupon": { "type": "DISCOUNT", "rate": 0.85, "maxAmount": 1500 },
+    "address": { "name": "王五", "phone": "13700002222", "detail": "广州市天河区体育西路 1 号" }
+  },
+  {
+    "id": "O1004",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-18T10:00:00+08:00",
+    "paidAt": "2026-10-18T10:02:00+08:00",
+    "shippedAt": "2026-10-19T09:00:00+08:00",
+    "items": [
+      { "skuId": "E500", "name": "数据线", "price": 500, "quantity": 2 }
+    ],
+    "coupon": { "type": "DISCOUNT", "rate": 0.9, "maxAmount": 1000 },
+    "address": { "name": "赵六", "phone": "13600003333", "detail": "深圳市南山区科技园南区 9 栋" }
+  },
+  {
+    "id": "O1005",
+    "status": "COMPLETED",
+    "createdAt": "2026-10-10T10:00:00+08:00",
+    "paidAt": "2026-10-10T10:01:00+08:00",
+    "shippedAt": "2026-10-11T08:00:00+08:00",
+    "completedAt": "2026-10-13T18:00:00+08:00",
+    "items": [
+      { "skuId": "F600", "name": "贴纸", "price": 500, "quantity": 1 }
+    ],
+    "coupon": { "type": "FULL_REDUCTION", "threshold": 0, "amount": 1000 },
+    "address": { "name": "孙七", "phone": "13500004444", "detail": "成都市高新区天府大道 100 号" }
+  }
+]
