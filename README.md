@@ -16,7 +16,7 @@ practice/
 ├─ PROGRESS.md        当前进度、下次起点、重做清单
 ├─ AGENTS.md          给 AI 看的协作规则（红线、陪练流程、代码约定、Git）
 ├─ CLAUDE.md          引用 AGENTS.md，让 Claude Code 也读到同一套规则
-├─ 资料/             求职资料：各公司面经/笔经、刷题资料、面试题库
+├─ 资料/             求职资料：各公司面经/笔经、刷题资料、面试题库（索引见 资料/README.md）
 ├─ 模板/
 │  ├─ Main.java       Java ACM 起手模板
 │  └─ main.js         JS（Node）ACM 起手模板
